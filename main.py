@@ -6,10 +6,10 @@ from tkinter import Tk,Label,Button,Entry,StringVar,IntVar,PhotoImage
 def SentimentAnalysis():
 
         # Authenticating
-        consumerKey = 'xQIAFNKhUISz1N2y6RmOoU3jQ'
-        consumerSecret = 'sBHCnteFa62HDdFDw8gM8RVQ8Ccn7Z5r8DNEtiWdHWWlRPW7P6'
-        accessToken = '1162008861160591360-yxZ7Vc2wBySWTpQAoFBKqkUOqcXWVM'
-        accessTokenSecret = 'ZV1OpRqBRUAHo9NWZQZEg4TMUldzgpTcK0HnFNFwtsb07'
+        consumerKey = 'Your Consumer Key'
+        consumerSecret = 'Your Consumer Secret Key'
+        accessToken = 'Your Access Token Key'
+        accessTokenSecret = 'Your Access Token Secret Key'
         auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
         auth.set_access_token(accessToken, accessTokenSecret)
         api = tweepy.API(auth)
